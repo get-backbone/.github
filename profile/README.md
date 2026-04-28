@@ -1,17 +1,18 @@
+# Production-grade microservices from day one.
+
+## Enterprise foundations. Startup speed.
+
 The [Forge Platform](https://forgeplatform.software/) consists of the following discreet repositories:
 
-| Repository                                                    | Visibility | Description                                                                                         |
-|---------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------|
-| [forge-kit](https://github.com/get-forge/forge-kit)           | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.              |
-| [forge-core](https://github.com/get-forge/forge-core)         | Private    | A zero-trust, horizontally scalable microservices platform built with Quarkus, and deployed on AWS. |
-| [forge-platform](https://github.com/get-forge/forge-platform) | Private    | A filtered mirror of `forge-core` that clients will fork, own and run with a licence.               |
-| [forge-docs](https://github.com/get-forge/forge-docs)         | Public     | This public documentation repository.                                                               |
-
-`forge-kit` is open-source and a limited but useful showcase of operational best practices that anyone can re-use with
-existing Quarkus services. It is also a working dependency of `forge-core`.
+| Repository                                            | Visibility | Description                                                                                         |
+|-------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------|
+| [forge-kit](https://github.com/get-forge/forge-kit)   | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.              |
+| `forge-core`                                          | Private    | A zero-trust, horizontally scalable microservices platform built with Quarkus, and deployed on AWS. |
+| `forge-platform`                                      | Private    | A filtered mirror of `forge-core` that clients will fork, own and run with a licence.               |
+| [forge-docs](https://github.com/get-forge/forge-docs) | Public     | This public documentation repository.                                                               |
 
 
-Out of the box, the Forge Platform provides you with the following:
+The Forge Platform provides you with the following:
 
 - A development environment built predominantly on free tier LocalStack that emulates AWS in full and spins up in seconds.
 - An entire GitHub Actions pipeline which includes release automation; ECS deployments (diffed services only); infrastructure
@@ -30,3 +31,4 @@ Out of the box, the Forge Platform provides you with the following:
   - backend-web; disposable reference UI and consumable frontend
 - Comprehensive Prometheus metrics and Grafana dashboards for observability.
 
+For more detailed information, check out the [Forge Platform](https://forgeplatform.software/) website and [Technical Documentation](https://get-forge.github.io/forge-docs/).
