@@ -3,17 +3,17 @@
 ## Production-grade microservices from day one.
 ### Enterprise foundations. Startup speed.
 
-The [Forge Platform](https://forgeplatform.software/) consists of the following discreet repositories:
+The [Backbone](https://backbonehq.io/) platform consists of the following discreet repositories:
 
 | Repository                                            | Visibility | Description                                                                                         |
 |-------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------|
-| [forge-kit](https://github.com/get-forge/forge-kit)   | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.              |
-| `forge-core`                                          | Private    | A zero-trust, horizontally scalable microservices platform built with Quarkus, and deployed on AWS. |
-| `forge-platform`                                      | Private    | A filtered mirror of `forge-core` that clients will fork, own and run with a licence.               |
-| [forge-docs](https://github.com/get-forge/forge-docs) | Public     | This public documentation repository.                                                               |
+| [forge-kit](https://github.com/get-backbone/forge-kit)   | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.           |
+| `backbone-core`                                       | Private    | A zero-trust, horizontally scalable microservices platform built with Quarkus, and deployed on AWS. |
+| `backbone-platform`                                   | Private    | A filtered mirror of `backbone-core` that clients will fork, own and run with a licence.            |
+| [backbone-docs](https://github.com/get-backbone/backbone-docs) | Public     | This public documentation repository.                                                      |
 
 
-The Forge Platform provides you with the following:
+Backbone provides the following:
 
 - A development environment built predominantly on free tier LocalStack that emulates AWS in full and spins up in seconds.
 - An entire GitHub Actions pipeline which includes release automation; ECS deployments (diffed services only); infrastructure
@@ -32,4 +32,4 @@ The Forge Platform provides you with the following:
   - backend-web; disposable reference UI and consumable frontend
 - Comprehensive Prometheus metrics and Grafana dashboards for observability.
 
-For more detailed information, check out the [Forge Platform](https://forgeplatform.software/) website and [Technical Documentation](https://get-forge.github.io/forge-docs/).
+For more detailed information, check out the [Backbone](https://backbonehq.io/) website and the [docs](https://docs.backbonehq.io/).
