@@ -7,7 +7,7 @@ The [Backbone](https://backbonehq.io/) platform consists of the following discre
 
 | Repository                                            | Visibility | Description                                                                                         |
 |-------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------|
-| [forge-kit](https://github.com/get-backbone/forge-kit)   | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.           |
+| [backbone-kit](https://github.com/get-backbone/forge-kit)   | Public     | Infrastructure components for Quarkus services: rate limiting, metrics, health checks.        |
 | `backbone-core`                                       | Private    | A zero-trust, horizontally scalable microservices platform built with Quarkus, and deployed on AWS. |
 | `backbone-platform`                                   | Private    | A filtered mirror of `backbone-core` that clients will fork, own and run with a licence.            |
 | [backbone-docs](https://github.com/get-backbone/backbone-docs) | Public     | This public documentation repository.                                                      |
