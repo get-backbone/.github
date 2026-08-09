@@ -5,7 +5,7 @@
 
 Backbone gives funded SaaS teams Year 3 operational maturity immediately — forked into your own AWS account in about two days, for a fraction of what building it yourself costs.
 
-[Backbone](https://backbonehq.io/) consists of the following discreet repositories:
+[Backbone](https://backbonehq.io/) consists of the following discrete repositories:
 
 | Repository                                            | Visibility | Description                                                                                         |
 |-------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------|
