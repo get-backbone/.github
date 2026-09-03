@@ -35,3 +35,11 @@ Backbone provides the following:
 - Comprehensive Prometheus metrics and Grafana dashboards for observability.
 
 For more detailed information, check out the [Backbone](https://backbonehq.io/) website and the [docs](https://docs.backbonehq.io/).
+
+## Upstream contributions
+
+Issues and fixes we have raised or validated against the tools Backbone depends on:
+
+| Project | Contribution | Status |
+|---------|--------------|--------|
+| [Floci](https://github.com/floci-io/floci) | Cognito `InitiateAuth` + `REFRESH_TOKEN_AUTH` accepted arbitrary refresh tokens ([#2113](https://github.com/floci-io/floci/issues/2113)) | Fixed in [1.7.0](https://github.com/floci-io/floci/releases/tag/1.7.0) |
