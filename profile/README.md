@@ -7,13 +7,42 @@ Backbone gives funded SaaS teams Year 3 operational maturity immediately — for
 
 [Backbone](https://backbonehq.io/) consists of the following discrete repositories:
 
-| Repository                                                                                   | Visibility | Description                                                                                                                 |
-|----------------------------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [backbone-kit](https://github.com/get-backbone/backbone-kit)                                 | Public     | Quarkus security + observability primitives: throttling, metrics, health checks etc.                                        |
-| [backbone-community](https://github.com/get-backbone/backbone-community)                     | Public     | Develop your domain services to run alongside **all** Backbone platform services locally with a **free** developer licence. |
-| `backbone-core`                                                                              | Private    | Platform maturity that normally emerges after years of iteration. Includes AWS infrastructure and release automation.       |
-| `backbone-platform`                                                                          | Private    | A mirror of `backbone-core` that clients template, own and run with a commercial licence.                                   |
-| `backbone-docs`                                                                              | Private    | Documentation repository published to the [readme platform](https://docs.backbonehq.io/).                                   |
+<table>
+  <thead>
+    <tr>
+      <th width="25%">Repository</th>
+      <th width="15%">Visibility</th>
+      <th width="60%">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/get-backbone/backbone-kit">backbone&#8209;kit</a></td>
+      <td>Public</td>
+      <td>Quarkus security + observability primitives: throttling, metrics, health checks etc.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/get-backbone/backbone-community">backbone&#8209;community</a></td>
+      <td>Public</td>
+      <td>Develop your domain services to run alongside <strong>all</strong> Backbone platform services locally with a <strong>free</strong> developer licence.</td>
+    </tr>
+    <tr>
+      <td><code>backbone&#8209;core</code></td>
+      <td>Private</td>
+      <td>Platform maturity that normally emerges after years of iteration. Includes AWS infrastructure and release automation.</td>
+    </tr>
+    <tr>
+      <td><code>backbone&#8209;platform</code></td>
+      <td>Private</td>
+      <td>A mirror of <code>backbone&#8209;core</code> that clients template, own and run with a commercial licence.</td>
+    </tr>
+    <tr>
+      <td><code>backbone&#8209;docs</code></td>
+      <td>Private</td>
+      <td>Documentation repository published to the <a href="https://docs.backbonehq.io/">readme platform</a>.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 Backbone provides the following:
