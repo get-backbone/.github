@@ -12,8 +12,8 @@ Backbone gives funded SaaS teams Year 3 operational maturity immediately — for
 | [backbone-kit](https://github.com/get-backbone/backbone-kit)             | Public     | Quarkus security + observability primitives: throttling, metrics, health checks etc.                                        |
 | [backbone-community](https://github.com/get-backbone/backbone-community) | Public     | Develop your domain services to run alongside **all** Backbone platform services locally with a **free** developer licence. |
 | `backbone-core`                                                          | Private    | Platform maturity that normally emerges after years of iteration. Includes AWS infrastructure and release automation.       |
-| `backbone-platform`                                                      | Private    | A mirror of `backbone-core` that clients fork, own and run with a commercial licence.                                       |
-| [backbone-docs](https://github.com/get-backbone/backbone-docs)           | Public     | Documentation repository published to the [readme platform](https://docs.backbonehq.io/).                                   |
+| `backbone-platform`                                                      | Private    | A mirror of `backbone-core` that clients template, own and run with a commercial licence.                                   |
+| `backbone-docs`                                                          | Private    | Documentation repository published to the [readme platform](https://docs.backbonehq.io/).                                   |
 
 
 Backbone provides the following:
@@ -35,7 +35,7 @@ Backbone provides the following:
   - backend-web; disposable reference UI and consumable frontend
 - Comprehensive Prometheus metrics and Grafana dashboards for observability.
 
-For more detailed information, check out the [Backbone](https://backbonehq.io/) website and the [docs](https://docs.backbonehq.io/).
+For more detailed information, check out the [Backbone website](https://backbonehq.io/) and the [docs](https://docs.backbonehq.io/).
 
 ## Upstream contributions
 
