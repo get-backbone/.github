@@ -10,9 +10,9 @@ Backbone gives funded SaaS teams Year 3 operational maturity immediately — for
 <table>
   <thead>
     <tr>
-      <th width="25%">Repository</th>
-      <th width="15%">Visibility</th>
-      <th width="60%">Description</th>
+      <th width="23%">Repository</th>
+      <th width="12%">Visibility</th>
+      <th width="65%">Description</th>
     </tr>
   </thead>
   <tbody>
