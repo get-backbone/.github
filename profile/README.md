@@ -72,5 +72,7 @@ Issues and fixes we have raised or validated against the tools Backbone depends 
 
 | Project | Contribution | Status |
 |---------|--------------|--------|
-| [Floci](https://github.com/floci-io/floci) | Cognito `InitiateAuth` + `REFRESH_TOKEN_AUTH` accepted arbitrary refresh tokens ([#2113](https://github.com/floci-io/floci/issues/2113)) | Fixed in [1.7.0](https://github.com/floci-io/floci/releases/tag/1.7.0) |
+| [Floci](https://floci.io/floci/) | Cognito `InitiateAuth` + `REFRESH_TOKEN_AUTH` accepted arbitrary refresh tokens ([#2113](https://github.com/floci-io/floci/issues/2113)) | Fixed in [1.7.0](https://github.com/floci-io/floci/releases/tag/1.7.0) |
 | [Open Clover](https://openclover.org/) | Java 25 instrumentation wraps super and this in try/finally - javac error ([#328](https://github.com/openclover/clover/issues/328)) | Open |
+| [GraalVM](https://www.graalvm.org/) | Quarkus + GraalVM Advanced Obfuscation ([#14485](https://github.com/oracle/graal/discussions/14485)) | Discussion |
+
