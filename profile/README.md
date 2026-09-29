@@ -37,8 +37,8 @@ Backbone gives funded SaaS teams Year 3 operational maturity immediately — for
       <td>A mirror of <code>backbone&#8209;core</code> that clients template, own and run with a commercial licence.</td>
     </tr>
     <tr>
-      <td><code>backbone&#8209;docs</code></td>
-      <td>Private</td>
+      <td><code><a href="https://github.com/get-backbone/backbone-docs">backbone&#8209;docs</a></code></td>
+      <td>Public</td>
       <td>Documentation repository published to the <a href="https://docs.backbonehq.io/">readme platform</a>.</td>
     </tr>
   </tbody>
